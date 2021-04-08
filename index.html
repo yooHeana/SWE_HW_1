@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>SWE_HW :: github and template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="some keywords that best describe your business">
+	<meta name="description" content="a short description of your company">
+	<meta name="author" content="SRPACDY">
+
+	<!-- Mobile Specific Metas
+	================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+	================================================== -->
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/bootstrap-theme.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/layout.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/background.css" type="text/css" media="screen">
+	<link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" media="screen">
+	
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+</head>
+<body>
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+<div class="header bg">
+	<div class="container">
+		<div class="row">
+			<header class="col-xs-12 text-center">
+				<div class="logo">
+					<a href="#"><img src="images/logo.png"></a>
+					<h1>HICE (College of Computer Engineering, Hongik Univ)</h1>
+                    <h2>B811116 HyunA Yoo</h2>
+                    <h4>Software Engineering HW</h4>
+					<ul class="time">
+						<li>
+							<span class="days" id="days"></span><br />
+							Days
+						</li>
+						<li>
+							<span class="hours"></span><br />
+							Hours
+						</li>
+						<li>
+							<span class="minutes"></span><br />
+							Minutes
+						</li>
+						<li>
+							<span class="seconds"></span><br />
+							Seconds
+						</li>
+					</ul>
+				</div>
+			</header>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 text-center">
+				<div class="down">
+					<a href="#about" class="smooth"><i class="fa fa-angle-down fa-3x"></i></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="about" id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-xs-10 text-center">
+				<div class="about-content">
+					<h2>홍익대학교 컴퓨터공학과 소프트웨어공학 수업 과제</h2>
+					<p>github 수업에서 부가적인 기능으로 static website를 구축하는 예를 보았습니다.<br>Website를 만드는 것은 소공 수업과 직결되는 것은 아니지만 지금의 모든 소프트웨어는 100% 웹 서비스를 구현하는 것이라고 해도 과언이 아닌 만큼 이미 대부분 javaScript 같은 언어로 웹 페이지를 만들어 본 경험이 없는 경우에도 1시간이면 수업 중에 얘기한 github 기능과 front end 웹 페이지 template 사이트에서 제공되는 기본적으로 javaScript 언어로 만들어진 간단한 페이지의 소스코드를 통해 어렵지 않게 공부해 볼 수 있습니다.<br>과제는 이번 토요일 오후 8시까지 각자 적당한 static 웹 페이지 template를 찾아서 각자의 이름 학번을 페이지에 보이게 하여서 자신의 웹 사이트를 github에 만들어 둔 다음에 github url을 클래스룸 과제로 올려두어 누구나 확인할 수 있도록 하는 것입니다.</p>
+				</div>				
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="contact bg">
+	<div class="container">	
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h1>Get In Touch</h1>
+			</div>			
+			<div class="col-md-12">
+				<form action="contact.php" method="post" id="contact_form" class="contact_form">
+					<fieldset>
+						<div class="col-sm-6"><input type="text" id="name" placeholder="Name" onFocus="if(!this._haschanged){this.value=''};this._haschanged=true;" /></div>
+						<div class="col-sm-6"><input type="text" id="email" placeholder="Email" onFocus="if(!this._haschanged){this.value=''};this._haschanged=true;" /></div>
+						<div class="col-xs-12"><textarea id="msg" cols="20" rows="3" placeholder="Message" onFocus="if(!this._haschanged){this.value=''};this._haschanged=true;"></textarea></div>
+						<div class="col-xs-12 text-center">
+						<input type="submit" value="Subscribe" id="contact_submit" />
+						</div>
+					</fieldset>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">				
+				<div class="copy">Copyright&copy;2017 <a href="https://creativemarket.com/SRPACDY" target="_blank">SRPACDY</a></div>
+			</div>			
+		</div>
+	</div>
+</div>
+
+
+
+	<!-- JS
+	================================================== -->
+	
+	<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="js/scroll.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/jquery.countdown.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/countdown.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/supersized.3.2.7.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/images.js" charset="utf-8"></script>
+	<script type="text/javascript" src="js/form.js" charset="utf-8"></script>
+
+	<!-- End Document
+	================================================== -->
+
+</body>
+</html>
